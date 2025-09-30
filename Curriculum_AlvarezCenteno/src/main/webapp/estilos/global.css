@@ -1,0 +1,76 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 30 sep 2025, 2:25:36 p.m.
+    Author     : chris
+*/
+
+/* Estilos globales */
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background-color: #825788; /* color morado que ya usaste */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFD700; /* cambia a dorado al pasar el mouse */
+}
+
+/* Secciones principales */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Imágenes dentro de artículos */
+article > img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Texto destacado */
+.resaltado {
+    color: #825788;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
